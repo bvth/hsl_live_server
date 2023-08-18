@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-xe-5d727#102d-g=v0nr#8^km0*e$uf*sr^++-qib&)=+obj^2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["127.0.0.1", ".vercel.app"]
 
 # Application definition
 
@@ -127,5 +127,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "hsl-live-78zocr81z-bvth.vercel.app"
+    "https://hsl-live-78zocr81z-bvth.vercel.app"
 ]
