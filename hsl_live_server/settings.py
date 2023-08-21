@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-xe-5d727#102d-g=v0nr#8^km0*e$uf*sr^++-qib&)=+obj^2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", ".vercel.app"]
+ALLOWED_HOSTS = ["127.0.0.1", "16.171.32.220"]
 
 # Application definition
 
@@ -79,9 +79,6 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "hsllive",
         "USER": "thanhbui",
-        "PASSWORD": "",
-        "HOST": "127.0.0.1",
-        "PORT": "5432",
     }
 }
 
